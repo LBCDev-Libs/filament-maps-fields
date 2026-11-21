@@ -59,6 +59,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `EXAMPLES.md` - Usage examples
   - `TROUBLESHOOTING.md` - Common issues and solutions
 
-[Unreleased]: https://github.com/Luinux81/filament-maps-fields/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/Luinux81/filament-maps-fields/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/Luinux81/filament-maps-fields/releases/tag/v1.0.0
+[Unreleased]: https://github.com/LBCDev-Libs/filament-maps-fields/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/LBCDev-Libs/filament-maps-fields/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/LBCDev-Libs/filament-maps-fields/releases/tag/v1.0.0

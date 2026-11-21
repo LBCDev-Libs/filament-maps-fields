@@ -667,8 +667,8 @@ MapEntry::make('map')
 
 Si encuentras algún problema o tienes sugerencias:
 
-- 🐛 [Reportar un bug](https://github.com/Luinux81/filament-maps-fields/issues)
-- 💡 [Solicitar una característica](https://github.com/Luinux81/filament-maps-fields/issues)
+- 🐛 [Reportar un bug](https://github.com/LBCDev-Libs/filament-maps-fields/issues)
+- 💡 [Solicitar una característica](https://github.com/LBCDev-Libs/filament-maps-fields/issues)
 
 ## Licencia
 
@@ -677,6 +677,6 @@ Este paquete es software de código abierto licenciado bajo la [Licencia MIT](LI
 ## Créditos
 
 - Desarrollado por [LBCDev](https://github.com/Luinux81)
-- Construido sobre [lbcdev/livewire-maps-core](https://github.com/Luinux81/livewire-maps-core)
+- Construido sobre [lbcdev/livewire-maps-core](https://github.com/LBCDev-Libs/livewire-maps-core)
 - Utiliza [Leaflet.js](https://leafletjs.com/) para los mapas
 - Construido para [Filament](https://filamentphp.com/)
