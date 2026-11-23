@@ -1,0 +1,25 @@
+name: Composer standalone validation
+
+on:
+  pull_request:
+    paths:
+      - 'composer.json'
+      - '.github/workflows/composer-validation.yml'
+  workflow_dispatch:
+
+jobs:
+  composer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up PHP and Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer:v2
+          coverage: none
+      - name: Validate composer.json
+        run: composer validate --strict --no-check-publish
+      - name: Resolve standalone dependencies
+        run: composer update --no-interaction --no-progress --prefer-dist --no-scripts
