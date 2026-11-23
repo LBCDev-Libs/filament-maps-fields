@@ -23,3 +23,5 @@ jobs:
         run: composer validate --strict --no-check-publish
       - name: Resolve standalone dependencies
         run: composer update --no-interaction --no-progress --prefer-dist --no-scripts
+      - name: Run PHPUnit
+        run: vendor/bin/phpunit --no-progress
