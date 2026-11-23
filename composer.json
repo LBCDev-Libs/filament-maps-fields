@@ -31,15 +31,6 @@
         "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
         "phpunit/phpunit": "^10.0|^11.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../../packages/core",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "LBCDev\\FilamentMapsFields\\": "src/"
