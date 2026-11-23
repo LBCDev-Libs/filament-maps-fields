@@ -1,6 +1,7 @@
 # Filament Maps Fields
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LBCDev-Libs/filament-maps-fields)
+
 Componentes de Filament para trabajar con mapas interactivos usando Leaflet.js.
 
 Este paquete proporciona campos de formulario y entradas de infolist para seleccionar ubicaciones en mapas interactivos dentro de paneles de administración Filament.
