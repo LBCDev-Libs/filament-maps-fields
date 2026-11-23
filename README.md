@@ -4,6 +4,8 @@ Componentes de Filament para trabajar con mapas interactivos usando Leaflet.js.
 
 Este paquete proporciona campos de formulario y entradas de infolist para seleccionar ubicaciones en mapas interactivos dentro de paneles de administración Filament.
 
+📦 [Paquete en Packagist](https://packagist.org/packages/lbcdev/filament-maps-fields) · 📖 [Documentación en DeepWiki](https://deepwiki.com/LBCDev-Libs/filament-maps-fields)
+
 ## Características
 
 ✨ **Dual Mode** - Soporta dos modos de almacenamiento:
@@ -23,10 +25,12 @@ Este paquete proporciona campos de formulario y entradas de infolist para selecc
 
 ## Requisitos
 
-- PHP 8.1 o superior
-- Laravel 10.x, 11.x, 12.x o 13.x
-- Filament 3.x o 4.x
+- PHP 8.2 o superior (mínimo efectivo por `lbcdev/livewire-maps-core`; Laravel 13 requiere PHP 8.3 o superior)
+- Laravel 10.x, 11.x, 12.x o 13.x, según la versión de Filament y PHP compatible
+- Filament 3.x o 4.x (Filament 4 requiere Laravel 11.28 o superior)
 - Livewire 3.x
+
+Estas restricciones **no implican que todas las combinaciones** de Laravel, PHP y Filament sean compatibles. Comprueba las restricciones de Composer y la matriz probada por tu aplicación antes de instalar.
 
 ## Instalación
 
